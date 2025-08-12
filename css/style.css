@@ -311,7 +311,6 @@ section p {
     padding: 50px 70px;
     /* background: #8ADBF0; */
     /* backdrop-filter: blur(10px); */
-    /* background:#8ad6e7; */
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -431,9 +430,11 @@ footer p {
         padding: 30px 24px;
         text-align: left;
     }
+
     .hero h1 {
         font-size: 2.2rem;
     }
+
     .whyus {
         flex-direction: row;
         flex-wrap: wrap;
@@ -443,6 +444,7 @@ footer p {
         padding: 40px 24px;
         text-align: center;
     }
+
     .whyus .card {
         width: calc(50% - 24px);
         min-width: 280px;
@@ -452,6 +454,7 @@ footer p {
         gap: 20px;
         padding: 0 24px;
     }
+
     .card {
         width: calc(50% - 20px);
     }
@@ -461,6 +464,7 @@ footer p {
         padding: 30px 24px;
         gap: 24px;
     }
+
     .contact-buttons {
         /* flex-direction: row; */
         gap: 16px;
@@ -473,10 +477,12 @@ footer p {
         padding: 24px;
         text-align: left;
     }
+
     .footer-links {
         flex-direction: row;
         gap: 16px;
     }
+
     .footer-bottom {
         flex-direction: row;
         justify-content: space-between;
@@ -553,7 +559,6 @@ body {
         align-self: stretch;
     }
 
-    /* hero */
     .hero {
         padding: 20px 16px;
         flex-direction: column;
@@ -588,6 +593,7 @@ body {
         width: 100%;
         margin-right: 0;
     }
+
     .whyus {
         flex-direction: column;
         gap: 30px;
